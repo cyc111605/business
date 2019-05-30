@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("/business/images/background_login.jpg");
+}
+#topl{
+    width:1050px;
+    height:70px;
+    font-size:18px;
+    margin:0 auto;
+    margin-bottom:100px;
+    margin-top:30px;
+}
+#right {
+    float: right;
+    width: 600px;
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+}
+.marrig{
+    margin-right:80px;
+    color: white;
+    font-size:18px;
+}
+#topl #right a{
+    text-decoration: none;
+}
+#topl #right a:link{
+    font-size:18px;
+    color: white;
+}
+#topl #right a:visited{
+    font-size:18px;
+    color: white;
+}
+#topl #right a:hover{
+    font-size:18px;
+    color: white;
+}
+#topl #right a:active{
+    font-size:18px;
+    color: white;
+}
+#reg{
+    background-color: #f0f1f4;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    border-radius: 7%;
+    padding-top:10px;
+    width: 500px;
+    height:550px;
+    margin:0 auto;
+    text-align:center;
+}
+#logo{
+    width:200px;
+    height:70px;
+    background-image:url("/business/images/logo.png");
+    float: left;
+}
+.log_p{
+    padding: 0px;
+    margin-bottom:50px;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"微软雅黑";
+}
+.in{
+    width:310px;
+    padding-left:20px;
+    height:30px;
+    line-height: 25px;
+    font-size:16px;
+    margin-bottom:30px;
+}
+.but {
+    background-color: #65a594;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    width: 80px;
+    height: 50px;
+    border: 0;
+    outline:none;
+    font-size:18px;
+    color:white;
+    font-weight：bold;
+}
+.sub {
+    margin-right: 75px;
+}
+
+#log_reg{
+    background-color: #f0f1f4;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    border-radius: 7%;
+    padding-top:10px;
+    width: 500px;
+    height:450px;
+    margin:0 auto;
+    text-align:center;
+}
+.add_bottom{
+    margin-bottom:36px;
+}
+.regin{
+	height:24px;
+	line-height:24px;
+	width:290px;
+	margin-top:0px;
+	margin-left:84px;
+	margin-top:5px;
+	font-size:17px;
+	color:red;
+}
+.in_reg{
+	margin-bottom:0px;
+	width:310px;
+    padding-left:20px;
+    height:30px;
+    line-height: 25px;
+    font-size:16px;
+}

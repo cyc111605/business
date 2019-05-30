@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>business</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>login</servlet-name>
+  	<servlet-class>com.business.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>login</servlet-name>
+  	<url-pattern>/LoginSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>register</servlet-name>
+  	<servlet-class>com.business.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>register</servlet-name>
+  	<url-pattern>/RegisterSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>insertAdmin</servlet-name>
+  	<servlet-class>com.business.servlet.InsertAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>insertAdmin</servlet-name>
+  	<url-pattern>/InsertAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>updateAdmin</servlet-name>
+  	<servlet-class>com.business.servlet.UpdateAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>updateAdmin</servlet-name>
+  	<url-pattern>/UpdateAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>insertMember</servlet-name>
+  	<servlet-class>com.business.servlet.InsertMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>insertMember</servlet-name>
+  	<url-pattern>/InsertMemberSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>updateMember</servlet-name>
+  	<servlet-class>com.business.servlet.UpdateMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>updateMember</servlet-name>
+  	<url-pattern>/UpdateMemberSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>deleteMember</servlet-name>
+  	<servlet-class>com.business.servlet.DeleteMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteMember</servlet-name>
+  	<url-pattern>/deleteMemberSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>exit</servlet-name>
+  	<servlet-class>com.business.servlet.Exit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>exit</servlet-name>
+  	<url-pattern>/Exit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>selectAdmin</servlet-name>
+  	<servlet-class>com.business.servlet.SelectIdAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>selectAdmin</servlet-name>
+  	<url-pattern>/SelectIdAdminSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>insertNews</servlet-name>
+  	<servlet-class>com.business.servlet.InsertNews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>insertNews</servlet-name>
+  	<url-pattern>/InsertNewsSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>allNews</servlet-name>
+  	<servlet-class>com.business.servlet.AllNews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>allNews</servlet-name>
+  	<url-pattern>/AllNewsSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>selectMember</servlet-name>
+  	<servlet-class>com.business.servlet.SelectMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>selectMember</servlet-name>
+  	<url-pattern>/SelectMemberSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>showNews</servlet-name>
+  	<servlet-class>com.business.servlet.ShowNews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>showNews</servlet-name>
+  	<url-pattern>/ShowNewsSer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>selectNews</servlet-name>
+  	<servlet-class>com.business.servlet.SelectNews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>selectNews</servlet-name>
+  	<url-pattern>/SelectNewsSer</url-pattern>
+  </servlet-mapping>
+</web-app>

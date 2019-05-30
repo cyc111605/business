@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background-color: #808080;
+}
+#main{
+    width: 880px;
+    padding-top:20px;
+    height:700px;
+    background-color: white;
+    margin:0 auto;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    border-radius: 2%;
+    text-align: center;
+}
+#dmain{
+    width: 580px;
+    padding-top:20px;
+    height:700px;
+    background-color: white;
+    margin:0 auto;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    border-radius: 2%;
+    text-align: center;
+}
+#textarea{
+    width:600px;
+    height:450px;
+    margin:10px auto;
+}
+.sub {
+    margin-right: 75px;
+}
+table tr td{
+	text-align:center;
+}
